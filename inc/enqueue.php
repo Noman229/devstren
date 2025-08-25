@@ -30,9 +30,9 @@ if ( ! function_exists( 'understrap_scripts' ) ) {
 		$css_version = $theme_version . '.' . filemtime( get_template_directory() . $theme_styles );
 		wp_enqueue_style( 'understrap-styles', get_template_directory_uri() . $theme_styles, array(), $css_version );
 		wp_enqueue_style( 'swiper-style', 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css' );
-		wp_enqueue_style( 'custom-media-style', get_template_directory_uri() . '/css/media.css' );
 		wp_enqueue_style( 'nk-style', get_template_directory_uri() . '/css/nk.css' );
 		wp_enqueue_style( 'hussain-style', get_template_directory_uri() . '/css/hussain.css' );
+		wp_enqueue_style( 'custom-media-style', get_template_directory_uri() . '/css/media.css' );
 
 
 		// Fix that the offcanvas close icon is hidden behind the admin bar.
