@@ -33,6 +33,7 @@ if ( ! function_exists( 'understrap_scripts' ) ) {
 		wp_enqueue_style( 'nk-style', get_template_directory_uri() . '/css/nk.css' );
 		wp_enqueue_style( 'hussain-style', get_template_directory_uri() . '/css/hussain.css' );
 		wp_enqueue_style( 'custom-media-style', get_template_directory_uri() . '/css/media.css' );
+		wp_enqueue_style( 'custom-style', get_template_directory_uri() . '/css/custom-style.css' );
 
 
 		// Fix that the offcanvas close icon is hidden behind the admin bar.
