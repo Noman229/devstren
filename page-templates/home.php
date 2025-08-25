@@ -19,6 +19,184 @@
         </div>
     </section>
     <!-- Hero Section End -->
+
+    <!-- About Us Section -->
+    <section class="about-us">
+        <div class="about-heading-section" style="background-image: url(<?php echo get_template_directory_uri() . '/images/Vector.png' ?>">
+            <h1 class="about-main-heading">About Devstren</h1>
+        </div>
+        <div class="about-content-section">
+            <div class="image">
+                <img src="<?php echo get_template_directory_uri() . '/images/about-men-image.png' ?>" alt="about-men">
+            </div>
+            <div class="content">
+                <h2>Who We Are</h2>
+                <p>At Devstren, we don’t just build software — we build solutions that solve real business challenges.
+                    As a full-service software agency, our team of developers, designers, and engineers specializes in
+                    transforming complex ideas into seamless digital products that deliver measurable results.
+                    <br><br>
+                    From sleek websites and intuitive user interfaces to enterprise-level applications, we combine
+                    strategy, creativity, and clean code to craft solutions that are both functional and visually
+                    compelling.
+                    <br><br>
+                    We believe every business deserves technology that’s not only reliable but also scalable and
+                    future-ready. That’s why we work closely with startups and established brands alike, tailoring our
+                    approach to fit each client’s unique goals and challenges.
+                </p>
+                <a href="#">
+                    Learn More
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- About Us Section -->
+
+    <!-- Services Section -->
+    <section class="our-services">
+        <div class="content" >
+            <h2>Our Core Services</h2>
+            <p>Our services cover every stage of the digital journey — from design to development to optimization —
+                ensuring your technology is as future-ready as your vision.</p>
+        </div>
+    </section>
+
+    <!-- Swiper -->
+    <div class="parent-slider>
+        <div class="our-services swiper myService">
+            <div class="service-slider swiper-wrapper">
+                <div class="service-card swiper-slide">
+                    <div class="images">
+                        <img src="<?php echo get_template_directory_uri() . '/images/service-one.png' ?>" alt="first-service">
+                    </div>
+                    <div class="innerContent">
+                        <h2>Software Engineering</h2>
+                        <p>Our team develops robust, business-driven applications that streamline operations and
+                            solve
+                            complex challenges. From enterprise-level systems to custom tools, we focus on clean
+                            code,
+                            long-term reliability, and seamless integration with your existing tech stack.</p>
+                    </div>
+                </div>
+                <div class="service-card swiper-slide">
+                    <div class="images">
+                        <img src="<?php echo get_template_directory_uri() . '/images/service-one.png' ?>" alt="first-service">
+                    </div>
+                    <div class="innerContent">
+                        <h2>Software Engineering</h2>
+                        <p>Our team develops robust, business-driven applications that streamline operations and
+                            solve
+                            complex challenges. From enterprise-level systems to custom tools, we focus on clean
+                            code,
+                            long-term reliability, and seamless integration with your existing tech stack.</p>
+                    </div>
+                </div>
+                <div class="service-card swiper-slide">
+                    <div class="images">
+                        <img src="<?php echo get_template_directory_uri() . '/images/service-one.png' ?>" alt="first-service">
+                    </div>
+                    <div class="innerContent">
+                        <h2>Software Engineering</h2>
+                        <p>Our team develops robust, business-driven applications that streamline operations and
+                            solve
+                            complex challenges. From enterprise-level systems to custom tools, we focus on clean
+                            code,
+                            long-term reliability, and seamless integration with your existing tech stack.</p>
+                    </div>
+                </div>
+                <div class="service-card swiper-slide">
+                    <div class="images">
+                        <img src="<?php echo get_template_directory_uri() . '/images/service-one.png' ?>" alt="first-service">
+                    </div>
+                    <div class="innerContent">
+                        <h2>Software Engineering</h2>
+                        <p>Our team develops robust, business-driven applications that streamline operations and
+                            solve
+                            complex challenges. From enterprise-level systems to custom tools, we focus on clean
+                            code,
+                            long-term reliability, and seamless integration with your existing tech stack.</p>
+                    </div>
+                </div>
+                <div class="service-card swiper-slide">
+                    <div class="images">
+                        <img src="<?php echo get_template_directory_uri() . '/images/service-one.png' ?>" alt="first-service">
+                    </div>
+                    <div class="innerContent">
+                        <h2>Software Engineering</h2>
+                        <p>Our team develops robust, business-driven applications that streamline operations and
+                            solve
+                            complex challenges. From enterprise-level systems to custom tools, we focus on clean
+                            code,
+                            long-term reliability, and seamless integration with your existing tech stack.</p>
+                    </div>
+                </div>
+                <div class="service-card swiper-slide">
+                    <div class="images">
+                        <img src="<?php echo get_template_directory_uri() . '/images/service-one.png' ?>" alt="first-service">
+                    </div>
+                    <div class="innerContent">
+                        <h2>Software Engineering</h2>
+                        <p>Our team develops robust, business-driven applications that streamline operations and
+                            solve
+                            complex challenges. From enterprise-level systems to custom tools, we focus on clean
+                            code,
+                            long-term reliability, and seamless integration with your existing tech stack.</p>
+                    </div>
+                </div>
+                <div class="service-card swiper-slide">
+                    <div class="images">
+                        <img src="<?php echo get_template_directory_uri() . '/images/service-one.png' ?>" alt="first-service">
+                    </div>
+                    <div class="innerContent">
+                        <h2>Software Engineering</h2>
+                        <p>Our team develops robust, business-driven applications that streamline operations and
+                            solve
+                            complex challenges. From enterprise-level systems to custom tools, we focus on clean
+                            code,
+                            long-term reliability, and seamless integration with your existing tech stack.</p>
+                    </div>
+                </div>
+                <div class="service-card swiper-slide">
+                    <div class="images">
+                        <img src="<?php echo get_template_directory_uri() . '/images/service-one.png' ?>" alt="first-service">
+                    </div>
+                    <div class="innerContent">
+                        <h2>Software Engineering</h2>
+                        <p>Our team develops robust, business-driven applications that streamline operations and
+                            solve
+                            complex challenges. From enterprise-level systems to custom tools, we focus on clean
+                            code,
+                            long-term reliability, and seamless integration with your existing tech stack.</p>
+                    </div>
+                </div>
+                <div class="service-card swiper-slide">
+                    <div class="images">
+                        <img src="<?php echo get_template_directory_uri() . '/images/service-one.png' ?>" alt="first-service">
+                    </div>
+                    <div class="innerContent">
+                        <h2>Software Engineering</h2>
+                        <p>Our team develops robust, business-driven applications that streamline operations and
+                            solve
+                            complex challenges. From enterprise-level systems to custom tools, we focus on clean
+                            code,
+                            long-term reliability, and seamless integration with your existing tech stack.</p>
+                    </div>
+                </div>
+                <div class="service-card swiper-slide">
+                    <div class="images">
+                        <img src="<?php echo get_template_directory_uri() . '/images/service-one.png' ?>" alt="first-service">
+                    </div>
+                    <div class="innerContent">
+                        <h2>Software Engineering</h2>
+                        <p>Our team develops robust, business-driven applications that streamline operations and
+                            solve
+                            complex challenges. From enterprise-level systems to custom tools, we focus on clean
+                            code,
+                            long-term reliability, and seamless integration with your existing tech stack.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     
     <!-- Projects Section Start -->
      <section class="project-sec">
@@ -245,6 +423,30 @@
         navigation: {
             nextEl: ".testi-next",
             prevEl: ".testi-prev",
+        },
+    });
+
+    var swiper = new Swiper(".myService", {
+        slidesPerView: 2,
+        initialSlide: 1,
+        spaceBetween: 15,
+        breakpoints: {
+            320: {
+                slidesPerView: 1.2,
+                spaceBetween: 15,
+            },
+            768: {
+                slidesPerView: 2.2,
+                spaceBetween: 15,
+            },
+            1024: {
+                slidesPerView: 2.4,
+                spaceBetween: 15,
+            },
+            1440: {
+                slidesPerView: 4.10,
+                spaceBetween: 15,
+            }
         },
     });
 
