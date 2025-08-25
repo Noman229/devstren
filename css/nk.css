@@ -1,0 +1,280 @@
+    @font-face {
+    font-family: 'ClashDisplay';
+    src: url('../fonts/ClashDisplay-Semibold.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Satoshi';
+    src: url('../fonts/Satoshi-Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+/* --------------------------------------------------------------------------------- */
+body {
+    font-family: 'Satoshi', sans-serif;
+    position: relative;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'ClashDisplay', serif;
+}
+.hero-sec{
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#wrapper-navbar{
+    z-index: 999;
+}
+nav .container {
+    background: rgba(255, 255, 255, 0.07) !important;
+    box-shadow: #5d5d5d 1px 2px 0px;
+    border: 1px solid;
+}
+.navbar-nav{
+    background: rgba(255, 255, 255, 0.14) !important;
+    backdrop-filter: blur(8px);
+    padding: 10px 40px;
+    gap: 49px;
+}
+.navbar-brand img{
+    max-width: 220px;
+}
+.nav-link{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    font-style: Medium;
+    letter-spacing: 0px;
+}
+.nav-link.active{
+    font-weight: 600;
+}
+a.custom-cta{
+    background: 
+        radial-gradient(32.29% 32.29% at 50% 21.87%, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 100%),
+        radial-gradient(53.2% 22.92% at 49.6% 100%, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0) 100%),
+        linear-gradient(270deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.4) 100%),
+        #0F8B82;
+    background-blend-mode: overlay, overlay, overlay, normal;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px #42B0A866;
+    color: #fff;
+    border-radius: 100px;
+    padding: 18px 57px;
+    font-family: Satoshi;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 18px;
+    letter-spacing: -2%;
+}
+a.custom-cta:hover{
+    background: transparent;
+    border: 1px solid #0F8B82;
+    color: #0F8B82;
+}
+.btn.custom-cta.bg-transparent{
+    border: 1px solid #0F8B82;
+}
+/* ----------------------- Hero section ------------------------------ */
+.hero-sec h1{
+    font-size: 78px;
+    line-height: 88px;
+    letter-spacing: 0;
+    background: linear-gradient(93.84deg, #FFFFFF 51.54%, rgba(66, 176, 168, 0) 107.02%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+.hero-sec p{
+    font-size: 18px;
+}
+.scroll-right{
+    top: 110px;
+    right: 150px;
+}
+/* ----------------------- Projects section ------------------------------ */
+.project-sec{
+    padding: 183px 0 80px 0;
+}
+.project-sec h2 {
+    font-weight: 500;
+    font-size: 212.03px;
+    line-height: 185px;
+    letter-spacing: 0;
+    background: linear-gradient(
+        337.56deg,
+        rgba(255, 255, 255, 0) -14.94%,
+        #42B0A8 128.7%
+    );
+    -webkit-background-clip: text;   /* Chrome, Safari */
+    -webkit-text-fill-color: transparent;
+    background-clip: text;           /* Firefox */
+    color: transparent;              /* fallback */
+}
+
+.project-sec .mySwiper {
+  width: 100%;
+  padding: 40px 0;
+}
+.project-sec .mySwiper .swiper-slide {
+  width: 60%;
+  transition: transform 0.5s ease, opacity 0.5s ease;
+  opacity: 0.6;
+  transform: scale(0.8);
+}
+.project-sec .mySwiper .swiper-slide-active {
+    opacity: 1;
+    transform: scale(1.1);
+    z-index: 2;
+}
+.project-sec .mySwiper img {
+    width: 100%;
+}
+.project-sec .swiper-slide h3{
+    font-size: 36px;
+}
+.project-sec .swiper-slide p{
+    font-size: 18px;
+}
+
+.project-sec .swiper-button-next{
+    right: 70px;
+    width: 217px;
+}
+.project-sec .swiper-button-next:after, .swiper-rtl .swiper-button-prev:after{
+    content: inherit;
+}
+
+/* ------------------------------ Why Choose Styling ------------------------------------ */
+.why-choose-sec ul {
+    z-index: 999;
+}
+.why-choose-sec li h3 {
+    font-size: 36px;
+}
+.why-choose-sec li p {
+    font-size: 18px;
+}
+.why-choose-sec {
+    padding-top: 130px;
+    padding-bottom: 197px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.why-choose-sec .row:first-child{
+    padding-bottom: 84px;
+}
+
+.marquee {
+  width: 100%;
+  white-space: nowrap;
+  box-sizing: border-box;
+  bottom: -17px;
+}
+
+.marquee-content {
+  display: inline-flex;
+  animation: marquee 15s linear infinite;
+}
+
+.marquee-content h4 {
+  font-size: 290px;
+  line-height: 210px;
+  color: #000;
+  -webkit-text-stroke: 2px #fff; /* stroke */
+}
+
+@keyframes marquee {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+
+/* ---------------------- Testimonial Styling ------------------------ */
+.testimonials-sec {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 152px 0 0px 0;
+}
+.testimonials-sec .swiper-slide{
+    padding: 100px 0;
+}
+.testimonial-item{
+    width: 100%;
+    max-width: 580px;
+    height: 580px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-color: #42b0a84d;
+    border-style: solid;
+    border-width: 20px !important;
+    box-shadow: 
+  rgba(66, 176, 168, 0.35) 0px 20px 90px, 
+  rgba(66, 176, 168, 0.20) 0px -20px 45px, 
+  rgba(66, 176, 168, 0.25) 0px 10px 20px, 
+  rgba(66, 176, 168, 0.30) 0px 20px 35px, 
+  rgba(66, 176, 168, 0.15) 0px -8px 15px;
+}
+
+.testimonials-sec .swiper-button-prev:after, .testimonials-sec .swiper-button-next:after{
+    content: inherit;
+}
+.testimonials-sec .swiper-button-prev.testi-prev, .testimonials-sec .swiper-button-next.testi-next {
+    width: 70px;
+    height: 70px;
+    border: 1px solid #42B0A8;
+    border-radius: 100px;
+}
+.testimonials-sec .swiper-button-prev.testi-prev:hover, .testimonials-sec .swiper-button-next.testi-next:hover {
+    background: 
+    radial-gradient(32.29% 32.29% at 50% 21.87%, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 100%),
+    radial-gradient(53.2% 22.92% at 49.6% 100%, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0) 100%),
+    linear-gradient(270deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.4) 100%),
+    #0F8B82;
+}
+.testimonials-sec .swiper-button-prev.testi-prev:hover img, .testimonials-sec .swiper-button-next.testi-next:hover img {
+    filter: invert(1) brightness(100);
+}
+
+/* ----------------------------- Blogs Styling ---------------------------- */
+.blog-sec h2{
+    font-size: 70px;
+    margin-bottom: 54px;
+    background: linear-gradient(90deg, #011311 21.75%, #42B0A8 110.9%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+
+}
+.card{
+    transition: 0.2s ease-in-out;
+}
+.card:hover{
+    background: #42B0A8;
+    box-shadow: 0px 61px 107px 0px #42B0A880 !important;
+}
+.card-title {
+    font-size: 30px;
+    color: #000;
+}
+.card:hover .card-title, .card:hover .card-text, .card:hover .card-date {
+    color: #fff;
+}
+.card:hover .card-date span > img {
+    filter: invert(1) brightness(100);
+}
+.card:hover .custom-cta{
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+}
