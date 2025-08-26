@@ -12,12 +12,9 @@ defined( 'ABSPATH' ) || exit;
 
 $container = get_theme_mod( 'understrap_container_type' );
 ?>
-
-<?php get_template_part( 'sidebar-templates/sidebar', 'footerfull' ); ?>
-
 <!-- footer -->
     <footer class="footer-sec position-relative overflow-hidden">
-        <div class="container">
+        <div class="container position-relative">
             <div class="row">
                 <div class="col-lg-7">
                     <h2 class="fw-semibold lh-sm">Let’s Build Something Great Together</h2>
@@ -71,32 +68,6 @@ $container = get_theme_mod( 'understrap_container_type' );
             </div>
         </div>
     </footer>
-
-<div class="wrapper d-none" id="wrapper-footer">
-
-	<div class="<?php echo esc_attr( $container ); ?>">
-
-		<div class="row">
-
-			<div class="col-md-12">
-
-				<footer class="site-footer" id="colophon">
-
-					<div class="site-info">
-
-						<?php understrap_site_info(); ?>
-
-					</div><!-- .site-info -->
-
-				</footer><!-- #colophon -->
-
-			</div><!-- col -->
-
-		</div><!-- .row -->
-
-	</div><!-- .container(-fluid) -->
-
-</div><!-- #wrapper-footer -->
 
 <?php // Closing div#page from header.php. ?>
 </div><!-- #page -->

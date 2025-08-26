@@ -5,16 +5,32 @@
     get_header();
 ?>
     <!-- Hero Section Start -->
-    <section class="hero-sec vh-100 d-flex align-items-center" style="background-image: url('<?php echo get_template_directory_uri() . '/images/hero-banner.png' ?>')">
+    <section class="hero-sec vh-100 d-flex align-items-center position-relative" style="background-image: url('<?php echo get_template_directory_uri() . '/images/hero-banner.webp' ?>')">
         <div class="container">
-            <div class="col-lg-7 position-relative">
-                <h1 class="fw-medium text-white">Smart, Scalable & Future Ready Software Solutions</h1>
-                <p class="fw-normal lh-base text-white">We design, engineer, and deliver tailored IT solutions — from web apps to enterprise software — helping businesses grow with secure, scalable, and user-friendly technology.</p>
-                <div class="d-flex align-items-center gap-2">
-                    <a href="#" class="btn custom-cta">Get Started</a>
-                    <a href="#" class="btn custom-cta bg-transparent">Explore Services</a>
+            <div class="row">
+                <div class="col-lg-7 position-relative">
+                    <h1 class="fw-medium text-white">Smart, Scalable & Future Ready Software Solutions</h1>
+                    <p class="fw-normal lh-base text-white">We design, engineer, and deliver tailored IT solutions — from web apps to enterprise software — helping businesses grow with secure, scalable, and user-friendly technology.</p>
+                    <div class="d-flex align-items-center gap-2">
+                        <a href="#" class="btn custom-cta">Get Started</a>
+                        <a href="#" class="btn custom-cta bg-transparent">Explore Services</a>
+                    </div>
+                    <img src="<?php echo get_template_directory_uri() . '/images/scroll-right.png' ?>" class="position-absolute scroll-right" width="123" alt="scroll-right-img">
                 </div>
-                <img src="<?php echo get_template_directory_uri() . '/images/scroll-right.png' ?>" class="position-absolute scroll-right" width="123" alt="scroll-right-img">
+                <div class="col-lg-5 position-relative"></div>
+            </div>
+            <div class="optimize-business position-absolute">
+                <ul class="list-unstyled ps-0 d-flex align-items-center">
+                    <li><img src="<?php echo get_template_directory_uri() . '/images/man-1.png' ?>" alt=""></li>
+                    <li><img src="<?php echo get_template_directory_uri() . '/images/woman.png' ?>" alt=""></li>
+                    <li><img src="<?php echo get_template_directory_uri() . '/images/man-2.png' ?>" alt=""></li>
+                    <li><img src="<?php echo get_template_directory_uri() . '/images/man-3.png' ?>" alt=""></li>
+                </ul>
+                <p class="fs-6 fw-light lh-sm mb-0 text-white">Optimize your business with Devstren</p>
+            </div>
+            <div class="grow-business position-absolute">
+                <img src="<?php echo get_template_directory_uri() . '/images/arrow-up.png' ?>" class="mb-3" alt="">
+                <p class="fs-6 fw-light lh-sm mb-0 text-white">Grow Your Business</p>
             </div>
         </div>
     </section>
