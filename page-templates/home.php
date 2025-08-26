@@ -410,10 +410,6 @@
      </section>
     <!-- Blogs Area End -->
     
-
-
-
-
 <?php get_footer(); ?>
 <script>
     var swiperProjects = new Swiper(".mySwiper", {

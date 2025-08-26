@@ -24,15 +24,9 @@ $navbar_type       = get_theme_mod( 'understrap_navbar_type', 'collapse' );
 
 <body <?php body_class(); ?> <?php understrap_body_attributes(); ?>>
 <?php do_action( 'wp_body_open' ); ?>
-<div class="site" id="page">
-
-	<!-- ******************* The Navbar Area ******************* -->
 	<header id="wrapper-navbar" class="position-fixed w-100">
-
 		<a class="skip-link <?php echo understrap_get_screen_reader_class( true ); ?>" href="#content">
 			<?php esc_html_e( 'Skip to content', 'understrap' ); ?>
 		</a>
-
 		<?php get_template_part( 'global-templates/navbar', $navbar_type . '-' . $bootstrap_version ); ?>
-
-	</header><!-- #wrapper-navbar -->
+	</header>
