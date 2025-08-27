@@ -37,42 +37,7 @@
     <!-- Hero Section End -->
 
     <!-- About Us Section -->
-    <section class="about-us position-relative" style="background-image: url(<?php echo get_template_directory_uri() . '/images/Vector.png' ?>">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <h2 class="about-main-heading fw-medium">About Devstren</h2>
-                </div>
-            </div>
-            <div class="row position-relative align-items-end">
-                <div class="col-lg-6">
-                    <div class="image">
-                        <img src="<?php echo get_template_directory_uri() . '/images/about-men-image.png' ?>" alt="about-men">
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="content">
-                        <h2>Who We Are</h2>
-                        <p>At Devstren, we don’t just build software — we build solutions that solve real business challenges.
-                            As a full-service software agency, our team of developers, designers, and engineers specializes in
-                            transforming complex ideas into seamless digital products that deliver measurable results.
-                        </p>
-                        <p>
-                            From sleek websites and intuitive user interfaces to enterprise-level applications, we combine
-                            strategy, creativity, and clean code to craft solutions that are both functional and visually
-                            compelling.
-                        </p>
-                        <p>
-                            We believe every business deserves technology that’s not only reliable but also scalable and
-                            future-ready. That’s why we work closely with startups and established brands alike, tailoring our
-                            approach to fit each client’s unique goals and challenges.
-                        </p>
-                        <a href="#" class="btn custom-cta">Learn More</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    <?php get_template_part( 'loop-templates/about-us' ); ?>
     <!-- About Us Section -->
 
     <!-- Services Section -->
@@ -223,44 +188,7 @@
     </div>
     
     <!-- Projects Section Start -->
-     <section class="project-sec">
-        <h2 class="section-title text-center">Our Projects</h2>
-        <div class="swiper mySwiper">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <img src="<?php echo get_template_directory_uri() . '/images/project-1.png' ?>" alt="project-title">
-                    <div class="d-flex justify-content-between mt-3">
-                        <h3 class="fw-semibold lh-base w-50">Blanco Marino</h3>
-                        <p class="fw-normal lh-sm w-50">We believe every business deserves technology that’s not only reliable but also scalable and future-ready. That’s why we work closely with startups and established brands alike, tailoring our approach to fit each client’s unique goals and challenges.</p>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <img src="<?php echo get_template_directory_uri() . '/images/project-1.png' ?>" alt="project-title">
-                    <div class="d-flex justify-content-between mt-3">
-                        <h3 class="fw-semibold lh-base w-50">Blanco Marino</h3>
-                        <p class="fw-normal lh-sm w-50">We believe every business deserves technology that’s not only reliable but also scalable and future-ready. That’s why we work closely with startups and established brands alike, tailoring our approach to fit each client’s unique goals and challenges.</p>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <img src="<?php echo get_template_directory_uri() . '/images/project-1.png' ?>" alt="project-title">
-                    <div class="d-flex justify-content-between mt-3">
-                        <h3 class="fw-semibold lh-base w-50">Blanco Marino</h3>
-                        <p class="fw-normal lh-sm w-50">We believe every business deserves technology that’s not only reliable but also scalable and future-ready. That’s why we work closely with startups and established brands alike, tailoring our approach to fit each client’s unique goals and challenges.</p>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <img src="<?php echo get_template_directory_uri() . '/images/project-1.png' ?>" alt="project-title">
-                    <div class="d-flex justify-content-between mt-3">
-                        <h3 class="fw-semibold lh-base w-50">Blanco Marino</h3>
-                        <p class="fw-normal lh-sm w-50">We believe every business deserves technology that’s not only reliable but also scalable and future-ready. That’s why we work closely with startups and established brands alike, tailoring our approach to fit each client’s unique goals and challenges.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="swiper-button-next">
-                <img src="<?php echo get_template_directory_uri() . '/images/drag.png' ?>" alt="">
-            </div> 
-        </div>
-     </section>
+    <?php get_template_part( 'loop-templates/project-slider' ); ?>
     <!-- Projects Section End -->
 
     <!-- Why choose Area Start -->
@@ -307,168 +235,11 @@
     <!-- Why choose Area End -->
 
     <!-- Testimonials Area Start -->
-     <section class="testimonials-sec" style="background-image: url('<?php echo get_template_directory_uri() ?>/images/testimonials-bg.png')">
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <h2 class="text-center">What Our Clients Say</h2>
-                </div>
-            </div>
-            <div class="swiper mySwiperTestimonials">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <div class="testimonial-item p-4 rounded-pill text-center">
-                            <img class="d-block mx-auto" src="<?php echo get_template_directory_uri() . '/images/testimonial-img.png' ?>" alt="project-title">
-                            <b class="d-block client-name">kevinvollq</b>
-                            <span class="d-block">Denmark</span>
-                            <p>It’s always a pleasure to work with Usman. He quickly delivers and fixes code and other website issues for me. Highly recommend!</p>
-                            <img class="d-block" src="<?php echo get_template_directory_uri() . '/images/star.svg' ?>" alt="">
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="testimonial-item p-4 rounded-pill text-center">
-                            <img class="d-block mx-auto" src="<?php echo get_template_directory_uri() . '/images/testimonial-2.png' ?>" alt="project-title">
-                            <b class="d-block client-name">Jonh David</b>
-                            <span class="d-block">United state</span>
-                            <p>It’s always a pleasure to work with Usman. He quickly delivers and fixes code and other website issues for me. Highly recommend!</p>
-                            <img class="d-block" src="<?php echo get_template_directory_uri() . '/images/star.svg' ?>" alt="">
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-button-next testi-next">
-                    <img src="<?php echo get_template_directory_uri() . '/images/arrow-right.png' ?>" alt="">
-                </div>
-                <div class="swiper-button-prev testi-prev">
-                    <img src="<?php echo get_template_directory_uri() . '/images/arrow-left.png' ?>" alt="">
-                </div>
-            </div>
-        </div>
-     </section>
+    <?php get_template_part( 'loop-templates/testimonial-slider' ); ?>
     <!-- Testimonials Area End -->
     
     <!-- Blogs Area Start -->
-     <section class="blog-sec">
-        <h2 class="fw-semibold lh-base text-center">Our Latest blog and Insights</h2>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4">
-                    <div class="card border-0  shadow p-2 rounded-3">
-                        <a href="#">
-                            <img src="<?php echo get_template_directory_uri() . '/images/blog-img-1.png' ?>" class="card-img-top" alt="...">
-                        </a>
-                        <div class="card-body">
-                            <a href="#" class="text-decoration-none">
-                                <h5 class="card-title fw-bold lh-sm">Understanding the Full Spectrum of Services</h5>
-                            </a>
-                            <p class="card-date d-flex align-items-center gap-2">
-                                <span class="lh-1"><img src="<?php echo get_template_directory_uri() . '/images/Calendar.png' ?>" width="20" alt=""></span>
-                                <span class="lh-sm">July 20, 2025</span>
-                            </p>
-                            <p class="card-text">Myriam was first trained as a sculptor in Montreal and then in Helsinki, Finland. She is now based in Quebec but works for clients all around the...</p>
-                            <a href="#" class="btn custom-cta">Learn More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="card border-0  shadow p-2 rounded-3">
-                        <a href="#">
-                            <img src="<?php echo get_template_directory_uri() . '/images/blog-img-2.png' ?>" class="card-img-top" alt="...">
-                        </a>
-                        <div class="card-body">
-                            <a href="#" class="text-decoration-none">
-                                <h5 class="card-title fw-bold lh-sm">Understanding the Full Spectrum of Services</h5>
-                            </a>
-                            <p class="card-date d-flex align-items-center gap-2">
-                                <span class="lh-1"><img src="<?php echo get_template_directory_uri() . '/images/Calendar.png' ?>" width="20" alt=""></span>
-                                <span class="lh-sm">July 20, 2025</span>
-                            </p>
-                            <p class="card-text">Myriam was first trained as a sculptor in Montreal and then in Helsinki, Finland. She is now based in Quebec but works for clients all around the...</p>
-                            <a href="#" class="btn custom-cta">Learn More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="card border-0  shadow p-2 rounded-3">
-                        <a href="#">
-                            <img src="<?php echo get_template_directory_uri() . '/images/blog-img-3.png' ?>" class="card-img-top" alt="...">
-                        </a>
-                        <div class="card-body">
-                            <a href="#" class="text-decoration-none">
-                                <h5 class="card-title fw-bold lh-sm">Understanding the Full Spectrum of Services</h5>
-                            </a>
-                            <p class="card-date d-flex align-items-center gap-2">
-                                <span class="lh-1"><img src="<?php echo get_template_directory_uri() . '/images/Calendar.png' ?>" width="20" alt=""></span>
-                                <span class="lh-sm">July 20, 2025</span>
-                            </p>
-                            <p class="card-text">Myriam was first trained as a sculptor in Montreal and then in Helsinki, Finland. She is now based in Quebec but works for clients all around the...</p>
-                            <a href="#" class="btn custom-cta">Learn More</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-     </section>
+    <?php get_template_part( 'loop-templates/blogs' ); ?>
     <!-- Blogs Area End -->
     
-<?php get_footer(); ?>
-<script>
-    var swiperProjects = new Swiper(".mySwiper", {
-      slidesPerView: "auto",
-      spaceBetween: 100,
-      initialSlide: 1, 
-      loop: true,
-      freeMode: true,
-      centeredSlides: true,
-      autoplay: {
-        delay: 2500,
-        disableOnInteraction: false,
-      },
-      navigation: {
-        nextEl: ".swiper-button-next", 
-        prevEl: ".swiper-button-prev", 
-        },
-    });
-
-    // Testimonial Slider
-    var swiperTestimonials = new Swiper(".mySwiperTestimonials", {
-        slidesPerView: 1, // testimonial usually 1 by 1 hota hai
-        spaceBetween: 30,
-        loop: true,
-        freeMode: false,
-
-        autoplay: {
-        delay: 3000,
-        disableOnInteraction: false,
-        },
-        navigation: {
-            nextEl: ".testi-next",
-            prevEl: ".testi-prev",
-        },
-    });
-
-    var swiper = new Swiper(".myService", {
-        slidesPerView: 2,
-        initialSlide: 1,
-        spaceBetween: 15,
-        breakpoints: {
-            320: {
-                slidesPerView: 1.2,
-                spaceBetween: 15,
-            },
-            768: {
-                slidesPerView: 2.2,
-                spaceBetween: 15,
-            },
-            1024: {
-                slidesPerView: 2.4,
-                spaceBetween: 15,
-            },
-            1440: {
-                slidesPerView: 4.10,
-                spaceBetween: 15,
-            }
-        },
-    });
-
-  </script>
-  
+<?php get_footer(); ?>  
