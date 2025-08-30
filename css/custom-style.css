@@ -30,7 +30,7 @@ nav .container {
     background: rgba(255, 255, 255, 0.14) !important;
     backdrop-filter: blur(8px);
     padding: 10px 40px;
-    gap: 49px;
+    gap: 10px;
 }
 .navbar-brand img{
     max-width: 220px;
@@ -43,7 +43,7 @@ nav .container {
 .nav-link.active{
     font-weight: 600;
 }
-a.custom-cta{
+a.custom-cta, button.custom-cta{
     background: 
         radial-gradient(32.29% 32.29% at 50% 21.87%, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 100%),
         radial-gradient(53.2% 22.92% at 49.6% 100%, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0) 100%),
@@ -555,4 +555,72 @@ footer {
 @keyframes marquee {
   0%   { transform: translateX(0); }
   100% { transform: translateX(-50%); }
+}
+/***************************** Template sections Styling *****************************/
+.page-hero-sec {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/***************************** Other pages Styling *****************************/
+.value-card p{
+    font-size: 18px;
+}
+.value-card-1{
+    top: 0;
+    right: 0;
+}
+.value-card-1{
+    top: 220px;
+    right: 230px;
+}
+.value-card-2{
+    top: 470px;
+    right: 110px;
+}
+.value-card-3{
+    bottom: 210px;
+    right: 190px;
+}
+.value-card-4{
+    top: 220px;
+    left: 190px;
+}
+.value-card-5{
+    top: 455px;
+    left: 90px;
+}
+.value-card-6 {
+    bottom: 210px;
+    left: 260px;
+}
+.contact-form{
+    padding: 100px 0;
+}
+.contact-center-logo{
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.contact-lef-col h2{
+    top: 30px;
+    left: 30px;
+}
+.contact-lef-col .optimize-business{
+    top: unset;
+    bottom: 20px;
+    left: 30px;
+}
+.contact-lef-col .grow-business {
+    bottom: 20px;
+    right: 30px;
+}
+.form-container{
+    padding: 74px 43px 40px;
+    box-sizing: border-box;
+}
+.form-container ::placeholder{
+    font-size: 13px;
+    line-height: 15px;
+    font-weight: 400;
 }
