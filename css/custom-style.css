@@ -556,71 +556,123 @@ footer {
   0%   { transform: translateX(0); }
   100% { transform: translateX(-50%); }
 }
-/***************************** Template sections Styling *****************************/
-.page-hero-sec {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-/***************************** Other pages Styling *****************************/
-.value-card p{
-    font-size: 18px;
-}
-.value-card-1{
-    top: 0;
-    right: 0;
-}
-.value-card-1{
-    top: 220px;
-    right: 230px;
-}
-.value-card-2{
-    top: 470px;
-    right: 110px;
-}
-.value-card-3{
-    bottom: 210px;
-    right: 190px;
-}
-.value-card-4{
-    top: 220px;
-    left: 190px;
-}
-.value-card-5{
-    top: 455px;
-    left: 90px;
-}
-.value-card-6 {
-    bottom: 210px;
-    left: 260px;
-}
-.contact-form{
-    padding: 100px 0;
-}
-.contact-center-logo{
-    top: -50px;
-    left: 50%;
-    transform: translateX(-50%);
-}
-.contact-lef-col h2{
-    top: 30px;
-    left: 30px;
-}
-.contact-lef-col .optimize-business{
-    top: unset;
-    bottom: 20px;
-    left: 30px;
-}
-.contact-lef-col .grow-business {
-    bottom: 20px;
-    right: 30px;
-}
-.form-container{
-    padding: 74px 43px 40px;
-    box-sizing: border-box;
-}
-.form-container ::placeholder{
-    font-size: 13px;
-    line-height: 15px;
-    font-weight: 400;
+
+
+@media (max-width:600px) {
+    /* nk css */
+
+    section.hero-sec.vh-100.d-flex.flex-column-reverse.flex-sm-row.align-items-start.align-items-sm-center.position-relative {
+        min-height: 900px !important;
+    }
+
+    .grow-business {
+        max-width: 115px;
+        padding: 19px 20px;
+        bottom: 390px;
+        right: 80px
+    }
+
+    .optimize-business {
+        width: 60%;
+        max-width: 150px;
+        padding: 19px 20px;
+        position: relative;
+        top: 360px;
+        right: 210px;
+    }
+
+    .hero-sec::before {
+
+        top: 40px;
+        bottom: 0px;
+        right: 125px;
+        width: 220px;
+        height: 300px;
+        background-size: 220px;
+    }
+
+    .hero-sec::after {
+        top: 190px;
+        bottom: 0px;
+        right: 0;
+        width: 320px;
+        height: 300px;
+        background-size: 320px;
+    }
+
+    .hero-sec h1 {
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    .hero-sec p {
+        font-size: 16px;
+    }
+
+    .scroll-right {
+        top: 100px;
+        width: 100px;
+        right: 80px;
+    }
+
+    a.btn.custom-cta {
+        padding: 10px 30px !important;
+        font-size: 16px !important;
+    }
+
+    .parent-slider .swiper .swiper-wrapper .swiper-slide {
+        width: 400px !important;
+        height: 480px !important;
+        padding: 0px;
+        gap: 0px;
+        margin-bottom: 0px;
+    }
+
+    .service-card .innerContent h2 {
+        font-size: 26px;
+        margin-bottom: 10px;
+    }
+
+    .project-sec h2 {
+        font-size: 70px;
+        line-height: 75px;
+    }
+
+    .project-sec {
+        padding: 60px 0;
+    }
+
+    .testimonials-sec {
+        padding: 50px 0 0px 0;
+    }
+
+    .testimonial-item {
+        width: 100%;
+        max-width: 300px;
+        height: 450px;
+        box-shadow: none;
+    }
+
+    .testimonials-sec .swiper-slide {
+        padding: 50px 0px;
+    }
+
+    .blog-sec h2 {
+        font-size: 41px;
+        margin-bottom: 20px
+    }
+
+    #wrapper-navbar{
+        width: 92% !important;
+    }
+
+    .header-cta a {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .navbar-brand img {
+        max-width: 150px;
+    }
+
 }

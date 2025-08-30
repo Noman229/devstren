@@ -112,3 +112,72 @@
 .mission-sec h2{
     font-size: 70px;
 }
+
+/***************************** Template sections Styling *****************************/
+.page-hero-sec {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/***************************** Other pages Styling *****************************/
+.value-card p{
+    font-size: 18px;
+}
+.value-card-1{
+    top: 0;
+    right: 0;
+}
+.value-card-1{
+    top: 220px;
+    right: 230px;
+}
+.value-card-2{
+    top: 470px;
+    right: 110px;
+}
+.value-card-3{
+    bottom: 210px;
+    right: 190px;
+}
+.value-card-4{
+    top: 220px;
+    left: 190px;
+}
+.value-card-5{
+    top: 455px;
+    left: 90px;
+}
+.value-card-6 {
+    bottom: 210px;
+    left: 260px;
+}
+.contact-form{
+    padding: 100px 0;
+}
+.contact-center-logo{
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.contact-lef-col h2{
+    top: 30px;
+    left: 30px;
+}
+.contact-lef-col .optimize-business{
+    top: unset;
+    bottom: 20px;
+    left: 30px;
+}
+.contact-lef-col .grow-business {
+    bottom: 20px;
+    right: 30px;
+}
+.form-container{
+    padding: 74px 43px 40px;
+    box-sizing: border-box;
+}
+.form-container ::placeholder{
+    font-size: 13px;
+    line-height: 15px;
+    font-weight: 400;
+}
